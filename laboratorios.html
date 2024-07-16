@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>+ Med</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Botón Flotante</title>
+    <style>
+        /* Estilos del botón flotante */
+        .floating-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 9999;
+            background-color: #ffffff;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .floating-button img {
+            width: 100%;
+            height: auto;
+            padding: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="titulo">
+                <a class="logo">
+                    <img src="imagenes/logoplusmed.png" width="100" height="100">
+                </a>
+                <div class="icon">
+                    <a href="carrito.html"><i class="fa-solid fa-heart"></a></i>
+                </div>
+            </div>
+            <div class="navegador">
+                <ul class="text_navegador">
+                    <li><a class="text" href="index.html">Inicio</a></li>
+                    <li><a class="text" href="quienessomos.html">Quienes Somos</a></li>
+                    <li><a class="text" href="laboratorios.html">Laboratorios</a></li>
+                    <li><a class="text" href="medicamentos.html">Medicamentos</a></li>
+                    <li><a class="text" href="consulta.html">Agendar Consulta</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="header_dos">
+        <div class="text_servicio">
+            <h2>Laboratorios</h2>
+            <h3 >En +med, ofrecemos una amplia gama de servicios de laboratorios clínicos, diseñados para brindarte resultados precisos y rápidos. Nuestro equipo de profesionales utiliza tecnología de punta para garantizar que cada prueba se realice con la máxima precisión y cuidado.</h3>
+        </div>
+    </section>
+
+    <ul class="cards">
+        <li class="cards__item">
+        <div class="card">
+            <div class="card__image card__image--lab1"></div>
+            <div class="card__content">
+            <div class="card__title">Hemograma Completo</div>
+            <p class="card__text">El hemograma completo mide los diferentes tipos de células sanguíneas, como glóbulos rojos, glóbulos blancos y plaquetas. Este análisis ayuda a detectar condiciones como anemia, infecciones y problemas de coagulación. Conoce el estado de tu salud con este examen integral.</p>
+            <button class="btn btn--block card__btn"><a href="consulta.html">Cotizar</a></button>
+            </div>
+        </div>
+        </li>
+        <li class="cards__item">
+        <div class="card">
+            <div class="card__image card__image--lab2"></div>
+            <div class="card__content">
+            <div class="card__title">Uroanálisis</div>
+            <p class="card__text">El uroanálisis es un examen completo de la orina que proporciona información detallada sobre la salud de tus riñones y vías urinarias. Evalúa parámetros como color, olor, pH, presencia de proteínas, glucosa, sangre y más. Obtén un panorama integral de tu salud con este análisis de orina.</p>
+            <button class="btn btn--block card__btn"><a href="consulta.html">Cotizar</a></button>
+            </div>
+        </div>
+        </li>
+        <li class="cards__item">
+        <div class="card">
+            <div class="card__image card__image--lab3"></div>
+            <div class="card__content">
+            <div class="card__title">Pruebas de función hepática</div>
+            <p class="card__text">Este panel de análisis evalúa el funcionamiento de tu hígado, midiendo niveles de enzimas, proteínas y otros marcadores. Ayuda a detectar problemas hepáticos como inflamación, daño celular o enfermedades crónicas. Mantén un seguimiento de la salud de tu hígado con estas pruebas.</p>
+            <button class="btn btn--block card__btn"><a href="consulta.html">Cotizar</a></button>
+            </div>
+        </div>
+        </li>
+        <li class="cards__item">
+        <div class="card">
+            <div class="card__image card__image--lab4"></div>
+            <div class="card__content">
+            <div class="card__title">Pruebas de función renal</div>
+            <p class="card__text">Este panel examina diversos marcadores en la sangre y orina para evaluar el estado de tus riñones. Incluye mediciones como filtrado glomerular, niveles de creatinina y urea. Monitorea el funcionamiento de tus riñones y detecta problemas renales a tiempo con estas pruebas.</p>
+            <button class="btn btn--block card__btn"><a href="consulta.html">Cotizar</a></button>
+            </div>
+        </div>
+        </li>
+        <li class="cards__item">
+            <div class="card">
+                <div class="card__image card__image--lab5"></div>
+                <div class="card__content">
+                <div class="card__title">Perfil lipídico</div>
+                <p class="card__text">El perfil lipídico mide los niveles de colesterol total, HDL, LDL y triglicéridos en la sangre. Estos resultados ayudan a evaluar el riesgo de enfermedades cardiovasculares y guían en la adopción de estilos de vida más saludables. Mantén un control de tu salud cardiometabólica con este análisis.</p>
+                <button class="btn btn--block card__btn"><a href="consulta.html">Cotizar</a></button>
+                </div>
+            </div>
+        </li>
+        <li class="cards__item">
+            <div class="card">
+                <div class="card__image card__image--lab6"></div>
+                <div class="card__content">
+                <div class="card__title">Pruebas de glucosa</div>
+                <p class="card__text">Esta prueba mide los niveles de glucosa en la sangre, lo cual es crucial para evaluar el funcionamiento del sistema metabólico y detectar condiciones como diabetes. Obtén un panorama de tu salud metabólica con este sencillo pero importante análisis.</p>
+                <button class="btn btn--block card__btn"><a href="consulta.html">Cotizar</a></button>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <div class="column">
+        <h2>Beneficios</h2>
+        <ul>
+            <li>Resultados rápidos y precisos</li>
+            <li>Atención personalizada</li>
+            <li>Equipo de expertos</li>
+            <li>Tecnología avanzada</li>
+        </ul>
+    </div>
+
+    <div class="corporate">
+        <h2>¡Cotiza y agenda tus pruebas de laboratorio desde la comodidad de tu hogar! Nuestro servicio en línea te permite programar citas y recibir resultados electrónicos de manera rápida y segura.</h2>
+    </div>
+
+
+    <section class="header_dos">
+        <div class="text_servicio">
+            <h2>Catalogo de Pruebas</h2>
+            <h3 >Explora nuestro catálogo completo de pruebas de laboratorio. En +med, entendemos la importancia de tener acceso a una variedad de pruebas diagnósticas para mantener tu salud en óptimas condiciones.</h3>
+        </div>
+    </section>
+
+        <ul class="cards">
+            <li class="cards__item">
+            <div class="card">
+                <div class="card__image card__image--lab1"></div>
+                <div class="card__content">
+                <div class="card__title">Hemograma completo</div>
+                <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quia eaque quis consequuntur nam error. Laudantium voluptatum ipsam dolor cumque similique quasi corrupti dolorem quaerat voluptatibus. Ullam debitis aut temporibus!</p>
+                <button class="btn btn--block card__btn"><a href="#">Cotizar</a></button>
+                </div>
+            </div>
+            </li>
+            <li class="cards__item">
+            <div class="card">
+                <div class="card__image card__image--lab2"></div>
+                <div class="card__content">
+                <div class="card__title">Prueba de función tiroidea</div>
+                <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, aspernatur possimus! Quod nihil voluptates cumque pariatur at totam, iste excepturi rem eos veritatis laudantium autem nesciunt ea. Modi, excepturi ab?.</p>
+                <button class="btn btn--block card__btn"><a href="#">Cotizar</a></button>
+                </div>
+            </div>
+            </li>
+            <li class="cards__item">
+            <div class="card">
+                <div class="card__image card__image--lab3"></div>
+                <div class="card__content">
+                <div class="card__title">Prueba de embarazo</div>
+                <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, esse dolores? Error officia laudantium animi suscipit veniam, fuga praesentium at quia, similique doloremque corrupti vitae quasi commodi eligendi obcaecati voluptatibus!</p>
+                <button class="btn btn--block card__btn"><a href="#">Cotizar</a></button>
+                </div>
+            </div>
+            </li>
+            <li class="cards__item">
+            <div class="card">
+                <div class="card__image card__image--lab4"></div>
+                <div class="card__content">
+                <div class="card__title">Perfil hormonal</div>
+                <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quasi! Sunt aliquid iste modi nulla quod, suscipit accusamus esse, dicta asperiores deleniti illum, laborum officia! Est similique laborum repudiandae perferendis.</p>
+                <button class="btn btn--block card__btn"><a href="#">Cotizar</a></button>
+                </div>
+            </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image card__image--lab5"></div>
+                    <div class="card__content">
+                    <div class="card__title">Prueba de alergias</div>
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quasi! Sunt aliquid iste modi nulla quod, suscipit accusamus esse, dicta asperiores deleniti illum, laborum officia! Est similique laborum repudiandae perferendis.</p>
+                    <button class="btn btn--block card__btn"><a href="#">Cotizar</a></button>
+                    </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image card__image--lab6"></div>
+                    <div class="card__content">
+                    <div class="card__title">Prueba de intolerancia alimentaria</div>
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quasi! Sunt aliquid iste modi nulla quod, suscipit accusamus esse, dicta asperiores deleniti illum, laborum officia! Est similique laborum repudiandae perferendis.</p>
+                    <button class="btn btn--block card__btn"><a href="#">Cotizar</a></button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+
+    <section class="fondo_personal">
+        <div class="personal">
+            <div class="imagen">
+                <video src="imagenes/LABTECH.mp4" width="950" height="415" autoplay>
+                </video>
+            </div>
+            <div class="personal_text">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <h2>+med</h2>
+            <h3>info@plusmed.com</h3>
+            <p>©2024 por +med.</p>
+        </div>
+    </footer>
+    <!-- Botón flotante -->
+    <a href="https://wa.me/50764985461" target="_blank" class="floating-button">
+        <img src="imagenes/wa.webp" alt="Logo del chat">
+    </a>
+</body>
+</html>
