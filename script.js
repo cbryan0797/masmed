@@ -10,6 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const productTitle = productElement.getAttribute('data-title');
         const productPrice = parseFloat(productElement.getAttribute('data-price'));
         const productImage = productElement.getAttribute('data-image');
+        const img = document.createElement('img');
+        img.src = productImage;
+        productElement.appendChild(img);
 
         let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
