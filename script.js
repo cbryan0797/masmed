@@ -9,6 +9,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const productId = productElement.getAttribute('data-id');
         const productTitle = productElement.getAttribute('data-title');
         const productPrice = parseFloat(productElement.getAttribute('data-price'));
+        const productImage = productElement.getAttribute('data-image');
+        const img = document.createElement('img');
+        img.src = productImage;
+        productElement.appendChild(img);
 
         let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
@@ -51,7 +55,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const productElement = document.createElement('div');
             productElement.classList.add('cart-item');
             productElement.innerHTML = `
-                <img src="${product.image}" alt="${product.title}">
                 <div class="cart-item-details">
                     <h3>${product.title}</h3>
                     <p>Precio: $${product.price.toFixed(2)}</p>
