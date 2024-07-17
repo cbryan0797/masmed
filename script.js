@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         document.getElementById('subtotal').innerText = subtotal.toFixed(2);
-        const itbms = subtotal * 0.07;
+        const itbms = subtotal * 0.00;
         document.getElementById('itbms').innerText = itbms.toFixed(2);
         document.getElementById('total').innerText = (subtotal + itbms).toFixed(2);
 
